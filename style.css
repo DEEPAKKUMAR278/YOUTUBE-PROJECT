@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    width:100vw;
+    height:100vh; 
+     
+}
+.content{
+    color:white;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-premium-black-golden-year-background-design-picture-image_1144224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*nav bar*/
+.navigationbar{
+    position: sticky;
+    top:0px;
+    background-color: black;
+    padding:5px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.right>img:nth-child(3){
+    width:20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    padding-left:10px;
+    align-items: center;
+}
+sup{
+    font-size: 7px;
+    color:white;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.left>img:nth-child(2){
+    width:60px;
+    padding-left:10px;
+    padding-right:2px;
+}
+input{
+    width:350px;
+    padding-left:10px;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    background-color: black;
+    border:1px solid rgb(92, 82, 82);
+}
+.blackimage{
+    width:30px;
+    padding-right:10px;
+    background-color:rgb(92, 82, 82);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.content{
+    padding:100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+}
+button{
+    width:150px;
+}
+h1{
+    font-family:Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+.benefits{
+    text-align: center;
+}
+button{
+    padding:10px 10px;
+    width:200px;
+    border-radius: 50px;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    color:blue;
+    text-decoration: brown;
+}
+.premium{
+    fill:white;
+}
+.specifications{
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    gap:100px;
+    padding-top: 30px;
+}
+.play{
+    width:200px;
+}
+.download{
+    width:200px;
+}
+.music{
+    width:200px;
+}
+.image1{
+    text-align: right;
+    color:white;
+    padding-top:100px;
+    padding-right:100px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:400px;
+    width:100vw;
+    background-image: url(assets/bg1.jpeg);
+    background-size: cover;
+}
+.image2{
+    text-align: left;
+    color:white;
+    padding-top:100px;
+    padding-left:100px;
+
+    height:450px;
+    width:100vw;
+    background-image: url(assets/bg2.jpeg);
+    background-size: cover;
+}
+.image3{
+    text-align: right;
+    color:white;
+    padding-top:100px;
+    padding-right:100px;
+
+    height:400px;
+    width:100vw;
+    background-image: url(assets/bg3.jpeg);
+    background-size: cover;
+}
+.faqs{
+    background-color: black;
+    color:white;
+}
+.faqs p{
+    font-size:13px;
+}
+.faqs2{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    width:100vw;
+    gap:20px;
+}
+.quest{
+    padding-right:370px;
+}
+.question{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    border:1px solid black;
+    
+}
+
+.help{
+    display:flex;
+    justify-content: space-between;   
+    width:700px;
+}
+span{
+    color:lightblue;
+    padding-left:10px;
+}
+.help2{
+    display:flex;
+    justify-content: center;
+}
+@media screen and (min-width:414px) and (max-width:512px){
+input {
+    width: 250px;
+    padding-left: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: black;
+    border: 1px solid rgb(92, 82, 82);
+}
+.navigationbar {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    padding-top:20px;
+    padding-right:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left>img:nth-child(2) {
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+sup {
+    font-size: 7px;
+    color: white;
+    padding-right:10px;
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    align-items: center;
+}
+.right {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 10px;
+
+}
+.blackimage {
+    width: 33px;
+    padding-left:5px;
+    margin-right:5px;
+    background-color: rgb(92, 82, 82);
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.premium{
+    width:400px;
+    padding-top:0px;
+}
+.content {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+h1 {
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    font-size: 15px;
+}
+.specifications {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.play>img{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.download>img{
+    padding-left: 40px;
+    padding-bottom: 10px;
+
+}
+.music>img{
+    padding-left: 40px;
+    padding-bottom: 10px;
+
+}
+.image1 {
+    text-align: left;
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 400px;
+    width: 100vw;
+    background-image: url(assets/bg1.jpeg);
+    background-size: cover;
+}
+.image2 {
+    text-align: left;
+    color: white;
+    padding-top: 200px;
+    padding-right: 100px;
+    height: 450px;
+    width: 100vw;
+    background-image: url(assets/bg2.jpeg);
+    background-size: cover;
+}
+.image3 {
+    text-align: left;
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+    height: 400px;
+    width: 100vw;
+    background-image: url(assets/bg3.jpeg);
+    background-size: cover;
+}   
+.quest {
+    
+    padding-top: 20px;
+    padding-right: 70px;
+    margin-right: 20px;
+}
+.faqs2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-left: 30px;
+    gap: 10px;
+}
+.question {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0px;
+    gap: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+hr{
+    width:70%;
+}
+}
+
+
+
+
+
